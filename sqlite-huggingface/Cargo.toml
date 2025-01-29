@@ -1,0 +1,9 @@
+[package]
+name = "sqlite-huggingface"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust-bert = "0.23.0"
+clap = {version="4.5.27", features=["derive"]}
+sqlite = "0.36.1"
